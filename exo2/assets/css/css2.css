@@ -1,0 +1,61 @@
+.container {
+    display: grid;
+    justify-content: space-around;    
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 95px 50px 80px;
+    font-family: cursive;
+    grid-gap: 10px;
+
+    color:ghostwhite;
+    
+  
+}
+
+.pink { 
+    background-color: deeppink;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.purple { 
+    background-color: rgb(208, 20, 255);
+    grid-column: 2;
+    grid-row: 1;
+}
+
+
+.yellow { 
+    background-color: rgb(241, 224, 125);
+    grid-column: 3;
+    grid-row: 1;
+}
+.green { 
+    background-color: rgb(170, 221, 129);
+    grid-column: 4;
+    grid-row: 1;
+}
+.brown { 
+    background-color: rgb(255, 20, 71);
+    grid-column: 1;
+    grid-row: 2;
+}
+.blue { 
+    background-color: rgb(20, 169, 255);
+    grid-column: 4;
+    grid-row: 2;
+}
+.darkBlue { 
+    background-color:indigo ;
+    grid-column: 1;
+    grid-row: 3;
+}
+.grey { 
+    background-color:dimgrey ;
+    grid-column: 3;
+    grid-row: 3;
+}
+.lila { 
+    background-color: rgb(204, 145, 219);
+    grid-column: 4;
+    grid-row: 3;
+}
