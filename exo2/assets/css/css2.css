@@ -1,13 +1,10 @@
 .container {
     display: grid;
-    justify-content: space-around;    
     grid-template-columns: 200px 200px 200px 200px;
-    grid-template-rows: 95px 50px 80px;
+    grid-template-rows: 95px 20px 80px;
     font-family: cursive;
     grid-gap: 10px;
-
     color:ghostwhite;
-    
   
 }
 
@@ -59,3 +56,10 @@
     grid-column: 4;
     grid-row: 3;
 }
+
+@media screen and (max-width: 640px) {
+    .container {
+      display:block;
+    
+    }
+  }

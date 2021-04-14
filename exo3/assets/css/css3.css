@@ -1,0 +1,49 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+      "header header header header header"
+      "menu main main right right"
+      "menu footer footer footer footer";
+    padding: 0px;
+  }
+  .area{ 
+    background : gainsboro;
+    padding: 1em;
+  }
+  .header {
+    grid-area: header;
+    background: pink; 
+  }
+  .right{
+    grid-area: right;
+    background: lightgreen;
+  }
+  .main{
+    grid-area: main;
+    background: plum;
+  }
+  
+  .menu{
+    grid-area: menu;
+    background: lightcoral;
+  }
+  .footer{
+    grid-area: footer;
+    background: pamplemouse;
+  }
+/*
+  @media screen AND (max-width:640px) {
+    .wrapper{
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat (5, 1fr);
+        
+      grid-template-areas:
+        "header"
+        "menu"
+        "main"
+        "right"
+        "footer";
+    }
+  }*/
