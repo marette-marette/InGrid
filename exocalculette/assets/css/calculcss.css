@@ -1,0 +1,209 @@
+#contenair {
+    display: grid;
+    background-color: rgb(48, 34, 240);
+    width: 15.5%;
+    height: 390px;
+    margin: 2px;
+    padding: 3px;
+}
+
+.calculatorHigh {
+    display: grid;
+    grid-template-columns:  ;
+    grid-template-rows: ;
+    background-color: lightslategray;
+}
+
+.bigzero {
+    background-color: rgb(32, 242, 13);
+ 
+}
+
+.memory {
+    display: grid;
+    grid-template-columns: 39px 39px 39px 39px 40px 40px ;
+    background-color: rgb(55, 146, 236);
+    gap: 2px;
+    text-align: center;
+}
+.MC {
+    grid-column: 1;
+    background-color: mediumaquamarine;
+    color :antiquewhite
+}
+.MR {
+    grid-column: 2;
+    background-color: mediumaquamarine;
+    color :antiquewhite
+}
+.Mplus {
+    grid-column: 3;
+    background-color: mediumaquamarine;
+}
+.Mminus {
+    grid-column: 4;
+    background-color: mediumaquamarine;
+}
+.MS {
+    grid-column: 5;
+    background-color: mediumaquamarine;
+}
+.M {
+    grid-column: 6;
+    background-color: mediumaquamarine;
+    color :antiquewhite
+}
+.clavier {
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px;
+    grid-template-rows: 30px 30px 30px 30px 30px 30px ;
+    text-align: center;
+    gap: 2px;
+  
+}
+.procent {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: rgb(25, 236, 201);
+    padding: 5px;
+}
+.CE {
+    grid-column: 2;
+    grid-row: 1;
+    background-color: rgb(25, 236, 201);
+    padding: 5px;
+}
+.C {
+    grid-column: 3;
+    grid-row: 1;
+    background-color:  rgb(25, 236, 201);
+    padding: 5px;
+}
+.erased {
+    grid-column: 4;
+    grid-row: 1;
+    background-color:  rgb(25, 236, 201);
+    padding: 5px;
+}
+.oneX {
+    grid-column: 1;
+    grid-row: 2;
+    background-color:  rgb(25, 236, 201);
+    padding: 5px;
+}
+.squareX {
+    grid-column: 2;
+    grid-row: 2;
+    background-color:  rgb(25, 236, 201);
+    padding: 5px;
+}
+.truc {
+    grid-column: 3;
+    grid-row: 2;
+    background-color:  rgb(25, 236, 201);
+    padding: 5px;
+}
+.division {
+    grid-column: 4;
+    grid-row: 2;
+    background-color: rgb(25, 236, 201);
+    padding: 5px;
+}
+.seven {
+    grid-column: 1;
+    grid-row:3;
+    background-color: lightyellow;
+    padding: 5px;
+}
+.eight {
+    grid-column: 2;
+    grid-row:3;
+    background-color: lightyellow;
+    padding: 5px;
+}
+.nine {
+    grid-column: 3;
+    grid-row:3;
+    background-color: lightyellow;
+    padding: 5px;
+}
+.multi {
+    grid-column: 4;
+    grid-row:3;
+    background-color:  rgb(25, 236, 201);
+    padding: 5px;
+}
+.four {
+    grid-column: 1;
+    grid-row:4;
+    background-color: lightyellow;
+    padding: 5px;
+}
+.five {
+    grid-column: 2;
+    grid-row: 4;
+    background-color: lightyellow;
+    padding: 5px;
+}
+.six {
+    grid-column: 3;
+    grid-row: 4;
+    background-color: lightyellow;
+    padding: 5px;
+}
+.minus {
+    grid-column: 4;
+    grid-row: 4;
+    background-color:  rgb(25, 236, 201);
+    padding: 5px;
+}
+
+.prout {
+    grid-column: 1;
+    grid-row: 5;
+    background-color: lightyellow;
+    padding: 5px;
+}
+    
+.two {
+    grid-column: 2;
+    grid-row: 5;
+    background-color: lightyellow;
+    padding: 5px;
+}
+.three {
+    grid-column: 3;
+    grid-row: 5;
+    background-color: lightyellow;
+    padding: 5px;
+}
+.plus {
+    grid-column: 4;
+    grid-row: 5;
+    background-color: rgb(25, 236, 201);
+    padding: 5px;
+}
+.plusMinus {
+    grid-column: 1;
+    grid-row: 6;
+    background-color: lightyellow;
+    padding: 5px;
+}
+.zero {
+    grid-column: 2;
+    grid-row: 6;
+    background-color: lightyellow;
+    padding: 5px;
+}
+.coma {
+    grid-column: 3;
+    grid-row: 6;
+    background-color: lightyellow;
+    padding: 5px;
+}
+.egal {
+    grid-column: 4;
+    grid-row: 6;
+    background-color: rgb(245, 2, 124);
+    padding: 5px;
+}
